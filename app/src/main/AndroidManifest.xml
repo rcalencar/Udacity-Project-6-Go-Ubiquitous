@@ -143,6 +143,8 @@
         </receiver>
 
         <service android:name=".widget.TodayWidgetIntentService" />
+        <service android:name=".sync.WearUpdateService" android:exported="false"/>
+
         <!-- Detail Widget -->
         <receiver
             android:name=".widget.DetailWidgetProvider"
