@@ -36,6 +36,7 @@ import com.example.android.sunshine.app.R;
 import com.example.android.sunshine.app.Utility;
 import com.example.android.sunshine.app.data.WeatherContract;
 import com.example.android.sunshine.app.muzei.WeatherMuzeiSource;
+import com.example.android.sunshine.app.wear.WearUpdateService;
 
 import org.json.JSONArray;
 import org.json.JSONException;
